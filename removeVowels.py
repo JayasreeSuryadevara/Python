@@ -1,4 +1,5 @@
 # function to remove vowels from a given string
+# Ex: 
 
 def removeVowels(str):
   result = ""
@@ -9,4 +10,4 @@ def removeVowels(str):
   return result
 
 
-print(removeVowels("leetcodeisacommunityforcoders"))
+print(removeVowels("ticecreekcodersrock"))
