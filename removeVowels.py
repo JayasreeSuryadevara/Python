@@ -1,5 +1,4 @@
 # function to remove vowels from a given string
-# Ex: 
 
 def removeVowels(str):
   result = ""
@@ -11,3 +10,9 @@ def removeVowels(str):
 
 
 print(removeVowels("ticecreekcodersrock"))
+#  tccrkcdrsrck
+print(removeVowels("consectetur adipiscing elit"))
+#  cnscttr dpscng lt
+
+print(removeVowels(
+    "Florida protester Oluwatoyin Salau, 19, found dead in Tallahassee after going missing"))

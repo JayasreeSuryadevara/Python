@@ -20,16 +20,27 @@
 def shuffle(arr, n):
   # initialize i to count x elements 
   # i + n will be the index of y elements
+
+  # print(shuffle([1, 1, 2, 2], 2))
+  # [1, 2, 1, 2]
+
+  # arr = [1,1,2,2]
+  # n = 2
+
   i = 0
   # put them into result array
-  result = []
-  while i < n:
-    result.append(arr[i])
-    result.append(arr[i+n])
-    i += 1
+  result = []               # result = []
+  while i < n:              # 2 < 2
+    result.append(arr[i])   # result = [1, 2, 1]
+    result.append(arr[i+n]) # result[1,2, 1, 2]
+    i += 1                  # i = i + 1 =>  i = 2
   
   # return the result 
   return result
+
+
+
+
 
 
 # as the function returns an array we need to print it to see it
@@ -39,3 +50,5 @@ print(shuffle([1, 2, 3, 4, 4, 3, 2, 1], 4))
 # [1, 4, 2, 3, 3, 2, 4, 1]
 print(shuffle([1, 1, 2, 2], 2))
 # [1, 2, 1, 2]
+
+print(shuffle([1,1,1,1,1,1,2,2,2,2,2,2], 6))
