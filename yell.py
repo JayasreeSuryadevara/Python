@@ -2,13 +2,14 @@
 # returns a new array where every word from the original array 
 # has an exclamation point after it.
 
-def yell(str):
-  strArr = str.split(" ")
+def yell(words):
+  wordsArr = words.split(" ")
   result = []
-  for word in strArr:
+  for word in wordsArr:
     result.append(word + "!")
 
   return " ".join(result)
+
 
 print(yell("Hello world"))
 
