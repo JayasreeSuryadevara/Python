@@ -2,6 +2,18 @@
 # returns a new array where every word from the original array 
 # has an exclamation point after it.
 
+# def yell(words):
+#   yelledWords = ""
+#   for word in words:
+#     yelledWords += word + "! "
+#   return yelledWords
+
+
+
+
+
+
+
 def yell(words):
   wordsArr = words.split(" ")
   result = []

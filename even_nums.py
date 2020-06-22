@@ -7,9 +7,8 @@ def even_nums(max):
   while(i <= max):
     result.append(i)
     i += 2
-
   return result
 
 print(even_nums(10))
 
-print(even_nums(40))
+print(even_nums(400))
