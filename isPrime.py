@@ -1,16 +1,15 @@
 def isPrime(num):
+  if num < 2: 
+    return False
+  for i in range(3,num):
+    if num % i == 0:
+      return False
+  return True
 
 
-  11
-  2
-  3
-  4
-  5
-  6
-  7
-  8
-  9
-  10
-  
-
-  anything between 1 and num
+print(isPrime(19))
+print(isPrime(324))
+print(isPrime(5))
+print(isPrime(7))
+print(isPrime(9))
+print(isPrime(11))
